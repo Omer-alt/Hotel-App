@@ -1,0 +1,120 @@
+/* @import url('https://fr.allfont.net/allfont.css?fonts=playfair-display');  */
+
+/* section de groupements de texte */
+.room-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 97px;
+    /* width: 100%; */
+    margin: 40px;
+}
+.room-text-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* max-height: 100vh; */
+}
+
+.accommodation{
+    font-size: 12px;
+    letter-spacing: 4px;
+    color: #C19B77;
+    margin-top: 0;
+}
+.all-room{
+    font-family: 'Playfair Display';
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+.room-blackbox{
+    color: #FFF;
+    background-color: #373737;
+    cursor: pointer;
+    box-sizing: border-box;
+    height: 39px;
+    width: 150px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.room-blackbox:hover{
+    transform: scale(0.9);
+}
+.room-text-p{
+    text-align: start;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+    line-height: 1.5em;
+    width: 570px;
+}
+
+/* //section des photos */
+.room-photos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* margin-bottom: 40px; */
+}
+.room{
+    position: relative;
+    width: 340px;
+    height: 220px;
+    filter: brightness(80%);
+}
+.room-description{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    color: #FFF;
+}
+.room-graybox{
+    height: 28px;
+    width: 134px;
+    background-color: #c19b77;
+    position: absolute;
+    top: -200px;
+    right: -340px;
+    text-align: center;
+    padding-top: 12px;
+}
+.room-name{
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    white-space: nowrap;
+    position: absolute;
+    bottom: 60px;
+    left: 10px;
+}
+.space{
+    white-space: nowrap;
+    margin-left: 10px;
+}
+
+.room-type-guest{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+    font-size: 12px;
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+}
+
+.room-guest{
+    height: 23px;
+    width: 23px;
+}
+.room-size{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+}
+
+
+

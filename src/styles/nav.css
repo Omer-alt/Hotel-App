@@ -1,0 +1,93 @@
+.nav-element { 
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 300;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    color: #fff;
+    background-color: #040404d3;
+}
+.fa-icons{
+    height: 18px;
+    width: 22.5px;
+}
+.nav-element:last-child{
+    margin-right: 20px;
+}
+
+.nav-child{
+    margin-left: 10px;
+    margin-right: 30px;
+    display: flex;
+}
+.space-left{
+    margin-left: 10px;
+}
+.basket{
+    height: 16px;
+    width: 16px;
+    background-color: transparent;
+    color: #fff;
+}
+.nav-sub-child{
+    margin-left: 20px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.square{
+    letter-spacing: 2px;
+    height: 21px; 
+    width: 59px;
+    background-color: #C19B76;
+    color: #fff;
+    margin-right: 10px;
+}
+.nav-child:last-child{
+    max-width: 20%;
+    overflow: hidden;
+}
+
+.nav-child:last-child *{
+    display: inline;
+    animation: defilement-rtl 15s infinite linear;
+}
+.maquee{
+    overflow: hidden;
+}
+.nav-maquee{
+    animation: defile 7s infinite linear;
+    width: 200%;
+    /* position: absolute; */
+}
+@media all and (max-width: 576px){
+    .nav-element{
+        display: none;
+    }
+}
+
+@keyframes defile {
+   from {
+        margin-left: 100%;
+        /* width: 100%; */
+   }
+   to{
+       margin-left: -200%;
+        /* width: 0%; */
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+

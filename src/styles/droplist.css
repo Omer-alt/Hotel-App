@@ -1,0 +1,19 @@
+.global-drop{
+    max-width: 210px;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;  
+    
+}
+
+.global-drop:only-child{
+    height: 70px;
+    width: auto;
+    margin-bottom: 1px solid ;
+}
+
+
+
+
+
+

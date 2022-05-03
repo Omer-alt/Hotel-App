@@ -1,0 +1,80 @@
+.services {
+    position: relative;
+}
+
+.parallax {
+    height: 650px;
+    width: 100%;
+    position: absolute;
+    filter: brightness(60%);
+}
+
+.white-section {
+    position: absolute;
+    background-color: #FFF;
+    height: 80px;
+    width: 100%;
+    top: 0;
+}
+
+.overlay-div{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #FFF;
+    top: 100px;
+}
+.principal-overlay{
+    width: 600px;
+    text-align: center;
+}
+.principal-overlay p{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 2em;
+    letter-spacing: 1.5px;
+}
+.principal-overlay h1{
+    font-size: 50px;
+    line-height: 1.3em;
+}
+.principal-overlay h5{
+    font-size: 12px;
+    letter-spacing: 4px;
+}
+.space-div{
+    height: 280px;
+    width: 300px;
+}
+.butons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 12px;
+    font-weight: bold;
+}
+.gray-buton{
+    height: 30px;
+    width: 180px;
+    background-color: #C19B76;
+    letter-spacing: 4px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.black-buton{
+    height: 30px;
+    width: 180px;
+    background-color: #FFF;
+    color: #1C1C1C;
+    letter-spacing: 4px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.black-buton:hover{
+    transform: scale(0.9);
+}
+.gray-buton:hover{
+    transform: scale(0.9);
+}
+

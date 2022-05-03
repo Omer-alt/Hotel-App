@@ -1,0 +1,33 @@
+.calendrier{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 100%;
+    background-color: #000;
+}
+.group{
+    color: #FFF;
+    height: 105px;
+    width: 300px;
+    margin: 4px;
+}
+.group-cadre{
+    height: 52px;
+    width: 270;
+    border: 1px solid #FFF;
+}
+.hidden{
+    overflow: hidden;
+}
+.calendrier:last-child .group-cadre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calendrier:last-child .group-cadre a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+
