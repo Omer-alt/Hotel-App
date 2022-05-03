@@ -1,3 +1,8 @@
+.service-others{
+    position: relative;
+
+}
+
 .services {
     position: relative;
 }
@@ -42,6 +47,7 @@
 .principal-overlay h5{
     font-size: 12px;
     letter-spacing: 4px;
+    font-weight: bold;
 }
 .space-div{
     height: 280px;
@@ -77,4 +83,105 @@
 .gray-buton:hover{
     transform: scale(0.9);
 }
+/* part of rectagles with a picture */
+.others{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.over-clean{
+    position: absolute;
+    top: 520px;
+    left: 30px; 
+}
+/* landry */
+.over-landry{
+    position: absolute;
+    top: 520px;
+    left: 430px; 
+}
+#over-block-text{
+    color: #FFF;
+    line-height: 29px;
+}
+#over-block-more{
+    text-align: center;
+    height: 32px;
+    color: #1C1C1C;
+    margin: 20px 12px 20px 40px;
+    background-color: #FFF;
+    cursor: pointer;
+}
+#over-block-more:hover{
+    background-color: #C19B76;
+    color: #FFF;
+}
+#over-block-lien{
+    text-decoration: none;
 
+    color: #1C1C1C;
+    padding-top: 10px;
+    font-size: 14px;
+    letter-spacing: 4px;
+    text-align: center;
+}
+#over-block-lien:hover{
+    color:#FFF;
+}
+/* meals */
+.over-meals{
+    position: absolute;
+    top: 520px;
+    right: 40px; 
+}
+
+.room-service{
+    position: relative;
+    margin-bottom: 0;
+    height: 266px;
+    width: 370px;
+}
+.over-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    
+    min-height: 300px;
+    text-align: start;
+   
+}
+
+.over-block-text{
+    color: #5c5c5c;
+    line-height: 29px;
+}
+.over-block-more{
+    text-align: center;
+    height: 32px;
+    color: #FFF;
+    margin: 20px 12px 20px 40px;
+    background-color: #C19B76;
+    cursor: pointer;
+}
+.over-block-lien{
+    text-decoration: none;
+
+    color: #FFF;
+    padding-top: 10px;
+    font-size: 14px;
+    letter-spacing: 4px;
+    text-align: center;
+}
+.over-block-more:hover{
+    background-color: #1C1C1C;
+}
+
+.over-line{
+    display: flex;
+    align-items: flex-end;
+}
+.over-line span{
+    margin-left: 20px;
+}
+/* //landry rectangle */
