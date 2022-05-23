@@ -93,12 +93,14 @@
     position: absolute;
     top: 520px;
     left: 30px; 
+    box-shadow: 1px -1px 1px 1px #979696, -1px -1px 1px 1px #979696;
 }
 /* landry */
 .over-landry{
     position: absolute;
     top: 520px;
     left: 430px; 
+    
 }
 #over-block-text{
     color: #FFF;
@@ -133,6 +135,7 @@
     position: absolute;
     top: 520px;
     right: 40px; 
+    box-shadow: 1px -1px 1px 1px #979696, -1px -1px 1px 1px #979696;
 }
 
 .room-service{

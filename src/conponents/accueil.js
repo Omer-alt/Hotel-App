@@ -5,6 +5,7 @@ import Reception from "./outils/reception";
 import Numbers from './outils/number';
 import AllRooms from './outils/allRooms';
 import Services from "./outils/services";
+import Assistance from './outils/assistance';
 
 function PrincipalPage(){
     return(
@@ -15,7 +16,11 @@ function PrincipalPage(){
             <Reception/>
             <Numbers/>
             <AllRooms/>
-            <Services/>
+            <div>
+                <Services/>
+                <Assistance/>
+            </div>
+            
         </div>
     )
 }
