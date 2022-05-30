@@ -1,0 +1,108 @@
+#surround{
+    height: 12px;
+    color: #C19B76;
+}
+#surround{
+    height: 20px;
+    letter-spacing: 4px;
+    font-size: 12px;
+}
+#surroundTitle{
+    color: #1C1C1C;
+    font-size: 30px;
+    line-height: 1.5em;
+}
+.AroundHotel{
+    position: relative;
+    top: 1400px;
+    text-align: center;
+}
+.around{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.aroundTitle{
+    font-weight: 300;
+    font-size: 25px;
+    color: #1C1C1C;
+    letter-spacing: 1px;
+    line-height: 1.3em;
+}
+.aroundDescription{
+    display: grid;
+    justify-self: end;
+    text-align: center;
+   
+}
+.aroundCountainer{
+    min-height: 605px;
+    /* position: relative; */
+}
+.aroundCountainerImg{
+   position: relative;
+   max-height: 600px; 
+}
+.aroundImg{
+    /* position: absolute; */
+    bottom: 0;
+    height: 405px;
+    width: 300px;
+}
+#aroundImgCenter{
+    max-height: 540px;
+    max-width: 425px;
+}
+.down{
+    position: relative;
+    bottom: -80px;
+}
+.aroundParagraph{
+    line-height: 28px;
+    font-size: 14px;
+    font-weight: 300;
+    margin-left: 50px;
+    margin-right: 50px;
+    /* width: 40vh; */
+}
+/* l'element en marrron en fond de section */
+
+.aroundBottom{
+    position: relative;
+    color: #FFF;
+    background-color: #C19B76;
+    min-height: 260px;
+    width: 60%;
+    left: 20%;
+    margin-top: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    filter: brightness(95%);
+
+}
+.aroundBtext{
+    font-size: 30px;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    
+    font-weight: 300;
+}
+.aroundBSpan{
+   
+    height: 30px;
+    width: 120px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background-color: #FFF;
+    color: #C19B76;
+    padding-top: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.aroundBSpan:hover{
+    transform: scale(0.8);
+}

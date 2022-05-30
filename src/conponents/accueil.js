@@ -7,6 +7,7 @@ import AllRooms from './outils/allRooms';
 import Services from "./outils/services";
 import Assistance from './outils/assistance';
 import SingleRoom from "./outils/singleRoom";
+import Around from "./outils/arround";
 
 function PrincipalPage(){
     return(
@@ -22,6 +23,7 @@ function PrincipalPage(){
                 <Assistance/>
             </div>
             <SingleRoom/>
+            <Around/>
             
         </div>
     )
