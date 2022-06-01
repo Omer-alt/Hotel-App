@@ -8,6 +8,7 @@ import Services from "./outils/services";
 import Assistance from './outils/assistance';
 import SingleRoom from "./outils/singleRoom";
 import Around from "./outils/arround";
+import HotelNew from "./outils/hotelNew";
 
 function PrincipalPage(){
     return(
@@ -24,6 +25,7 @@ function PrincipalPage(){
             </div>
             <SingleRoom/>
             <Around/>
+            <HotelNew/>
             
         </div>
     )

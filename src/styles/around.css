@@ -81,7 +81,7 @@
     align-items: center;
     justify-content: center;
     filter: brightness(95%);
-
+    z-index: 1;
 }
 .aroundBtext{
     font-size: 30px;
