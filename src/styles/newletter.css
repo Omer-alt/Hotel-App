@@ -1,0 +1,33 @@
+.newLetter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: 1300px;
+}
+.newLetterLeft{
+    font-size: 23px;
+    font-weight: 600;
+    color: #1c1c1c;
+    letter-spacing: -0.7px;
+    line-height: 1.3em;
+}
+.newLetterRight{
+    display: flex;
+    font-size: 23px;
+    height: 47px;
+    width: 300px;
+}
+.newLetterButton{
+    color: #FFF;
+    background-color: #C19B76;
+    border: none;
+    text-decoration: none;
+    height: 47.2px;
+    width: 220px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.newLetterButton:hover{
+    background-color: #1c1c1c;
+}

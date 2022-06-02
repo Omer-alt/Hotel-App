@@ -68,7 +68,7 @@ const HotelNew = () => {
                     </div>
                     <div className='textPost'>
                         <div className='ref'>suites</div>
-                        <h2 className='postTitle'>room services</h2>
+                        <h2 className='postTitle'>24h Reception </h2>
                         <div className='PostDescription'>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra, risus ac hendrerit consectetur, elit nisl luctus est.
@@ -110,7 +110,7 @@ const HotelNew = () => {
                     </div>
                     <div className='textPost'>
                         <div className='ref'>suites</div>
-                        <h2 className='postTitle'>room service</h2>
+                        <h2 className='postTitle'>Daily sanitization</h2>
                         <div className='PostDescription'>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra, risus ac hendrerit consectetur, elit nisl luctus est.

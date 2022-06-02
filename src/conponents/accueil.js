@@ -9,6 +9,8 @@ import Assistance from './outils/assistance';
 import SingleRoom from "./outils/singleRoom";
 import Around from "./outils/arround";
 import HotelNew from "./outils/hotelNew";
+import NewLetter from "./outils/newLetter";
+import Footer from "./outils/footer";
 
 function PrincipalPage(){
     return(
@@ -26,7 +28,8 @@ function PrincipalPage(){
             <SingleRoom/>
             <Around/>
             <HotelNew/>
-            
+            <NewLetter/>
+            <Footer/>
         </div>
     )
 }
