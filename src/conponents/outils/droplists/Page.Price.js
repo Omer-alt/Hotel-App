@@ -4,11 +4,11 @@ import "../../../styles/droplist.css"
 const PagePrice = () => {
   return (
     <div className='global-drop'> 
-        <span>
-            Rooms 1
-        </span>
-        <span>Rooms 2</span>
-        <span>Single suite </span>
+      <span className='drop-element'>
+        Rooms 1
+      </span>
+      <span className='drop-element'>Rooms 2</span>
+      <span className='drop-element'>Single suite </span>
     </div>
   )
 }

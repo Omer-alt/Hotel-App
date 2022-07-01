@@ -4,12 +4,12 @@ import "../../../styles/droplist.css"
 const New = () => {
   return (
     <div className='global-drop'>
-        <span className='second-drop'>
-            <span>Archive</span>
-            <span className='hot'>HOT</span>
+        <span className='second-drop drop-element'>
+          <span>Archive</span>
+          <span className='hot'>HOT</span>
         </span>
-        <span>New pages </span>
-        <span>Single Post</span>
+        <span className='drop-element'>New pages </span>
+        <span className='drop-element'>Single Post</span>
         
     </div>
   )

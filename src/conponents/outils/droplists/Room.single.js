@@ -4,12 +4,12 @@ import "../../../styles/droplist.css"
 const Single = () => {
   return (
     <div className='global-drop'>
-        <span className='second-drop'>
+        <span className='second-drop drop-element'>
           <span>Gallerie Room</span>
           <span className='hot'>HOT</span>
         </span>
-        <span>Video Room</span>
-        <span>Image Room</span>
+        <span className='drop-element'>Video Room</span>
+        <span className='drop-element'>Image Room</span>
     </div>
   )
 }

@@ -1,0 +1,44 @@
+@import url(https://fonts.gstatic.com/s/nunito/v24/XRXI3I6Li01BKofiOc5wtlZ2di8HDLshdTA3j77e.woff2);
+
+.navigationItem{
+    width: calc(100% - 40px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    transition: all 0.5s;
+}
+.navigationItem:hover{
+    border-left: 5px solid #C19B77;
+    background-color: #000;
+}
+
+.navigationItemText {
+    margin-left: 20px;
+    font-size: 16px;
+    font-family: "Nunito-Bold";
+    color: #fff;
+}
+
+.navigationList {
+    position: absolute;
+    background-color: #373737;
+    width: calc(100%/4);
+    height: calc(100vh - 120px);
+    overflow-x: hidden;
+    overflow-y: auto;
+    scrollbar-width: thin;
+}
+.navigationItems {
+    width: 100%;
+    height: auto;
+    padding-inline: 10px;
+    padding-block: 10px;
+    border-top: 1px solid #f8f8f8;
+    display: flex;
+    flex-direction: column;
+}

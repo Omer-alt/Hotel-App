@@ -4,11 +4,11 @@ import "../../../styles/droplist.css"
 const Contact = () => {
   return (
     <div className='global-drop'>
-        <span>Contact 1</span>
-        <span>Contact 2</span>
-        <span className='second-drop'>
-            <span>Contact 3</span>
-            <span className='new'>NEW</span>
+        <span className='drop-element'>Contact 1</span>
+        <span className='drop-element'>Contact 2</span>
+        <span className='second-drop drop-element'>
+          <span>Contact 3</span>
+          <span className='new'>NEW</span>
         </span>
     </div>
   )

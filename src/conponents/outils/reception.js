@@ -10,8 +10,9 @@ const Reception = () => {
         duree = 1,
         delta = Math.ceil((duree*1000)/end);
     
+
     function count(){
-        var node=document.getElementsByClassName('reception-number')[0]; 
+        var node=document.getElementsByClassName('reception-number')[0];
         node.innerHTML = ++start;
         if( start < end ) { // Si on est pas arrivé à la valeur finale, on relance notre compteur une nouvelle fois
             setTimeout(count, delta);

@@ -3,13 +3,6 @@ import React, {useState} from 'react'
 import '../../styles/firstImage.css'
 import background from '../assets/images/principal.jpg'
 import Navbar from './navbar';
-import Home from './droplists/Home';
-import About from './droplists/Abouts';
-import Room from './droplists/Roms';
-import Shop from './droplists/Shop';
-import Pages from './droplists/Pages';
-import New from './droplists/News';
-import Contact from './droplists/Contact';
 
 
 function FirstImage() {
@@ -40,20 +33,27 @@ function FirstImage() {
         >
           <Navbar 
             setHome={setHome}
+            home={home}
             setAbout={setAbout}
+            about={about}
             setContact={setContact}
             setShop={setShop}
+            shop={shop}
             setPages={setPages}
+            pages={pages}
+            room={room}
+            news={news}
+            contact={contact}
             setNews={setNews}
             setRoom={setRoom}
           />
-          {home && <Home/>}
-          {about && <About/>}
-          {room && <Room/>}
-          {shop && <Shop/>}
-          {pages && <Pages/>}
-          {news && <New/>}
-          {contact && <Contact/>}
+          <div className='firstImOverlay'>
+            <div className='firstImText1'>book your room now!</div>
+            <div className='firstImText2'>
+              <span>Reserve</span>
+              <span> Your Holiday</span>
+            </div>
+          </div>
         </div>
     </div>
   )

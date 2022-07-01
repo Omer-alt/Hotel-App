@@ -25,6 +25,11 @@
     margin-left: 30px;
     cursor: pointer;
 }
+.menu-elem:hover{
+    background-color: #C19B76;
+    padding: 16px 16px 16px 0px;
+    border: none;
+}
 .book-class{
     height: 34px;
     width: 155px;

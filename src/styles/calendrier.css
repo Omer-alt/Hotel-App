@@ -6,6 +6,12 @@
     width: 100%;
     background-color: #000;
 }
+.calendrierSquare{
+    background-color:#FFF;
+    z-index: 10;
+    position:relative;
+    color:black;
+}
 .group{
     color: #FFF;
     height: 105px;
@@ -13,21 +19,26 @@
     margin: 4px;
 }
 .group-cadre{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     height: 52px;
     width: 270;
     border: 1px solid #FFF;
+
 }
 .hidden{
-    overflow: hidden;
+    visibility: hidden;
 }
 .calendrier:last-child .group-cadre{
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.calendrier:last-child .group-cadre a{
+.group-cadre a{
     text-decoration: none;
     color: #FFF;
+    
 }
 
 
