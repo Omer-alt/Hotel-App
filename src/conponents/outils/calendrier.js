@@ -1,6 +1,8 @@
 import React,{useEffect, useState, useRef} from 'react'
 import { FaAngleUp,FaAngleDown } from 'react-icons/fa'
-import moment from 'moment'
+import moment, { duration } from 'moment'
+import AOS from "aos";
+import "aos/dist/aos.css";
 import "../../styles/calendrier.css"
 import CalendarSquare from './droplists/calendar'
 
@@ -67,9 +69,13 @@ const Calendrier = () => {
             setGuest(1)
         }
     }
+    // initialise AOS
+    useEffect(()=>{
+        AOS.init({duration: 2000})
+    },[])
   return (
     <div className='calendrier'>
-        <div ref={checkInRef} className='group'>
+        <div data-aos={"fade-up"} ref={checkInRef} className='group'>
             <span>CHECK-IN</span>
             {arriveTime && 
                 <CalendarSquare 
@@ -86,7 +92,7 @@ const Calendrier = () => {
             </div>
             
         </div>
-        <div ref={checkOutRef} className='group'>
+        <div data-aos={"fade-up"} ref={checkOutRef} className='group'>
             <span>CHECK-OUT</span>
             <div  onClick={()=>showCalendar(true, setTimeLeave)} className="group-cadre">
                 
@@ -100,14 +106,14 @@ const Calendrier = () => {
                 />
             }
         </div>
-        <div className='group'>
+        <div data-aos={"fade-up"} className='group'>
             <span>GUESTS</span>
             <div className="group-cadre">
                 <span>{guests}</span>
                 <span><FaAngleDown onClick={decrement}/><FaAngleUp onClick={increment}/></span>
             </div>
         </div>
-        <div className='group'>
+        <div data-aos={"fade-up"} className='group'>
             <span className='hidden'>available</span>
             <div className="group-cadre">
                 <a href='#top'>

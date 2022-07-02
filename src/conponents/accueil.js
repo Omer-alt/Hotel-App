@@ -14,6 +14,7 @@ import Footer from "./outils/footer";
 import SideBarRight from "./outils/sideBarRight";
 
 function PrincipalPage(){
+    
     return(
         <div>
             <Navbar />

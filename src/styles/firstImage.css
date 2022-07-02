@@ -2,13 +2,17 @@
     height: 3px;
     background-color: #C19B76;
 }
-
+.animate-text{
+    /* effect machine a ecrire sur le texte*/
+    visibility: hidden;
+}
 .firstImOverlay{
+    /* style du texte sans animation */
     display: flex;
     flex-direction: column;
     position: absolute;
     left: 20px;
-    bottom: -250px;
+    bottom: -220px;
 }
 .firstImText1{
     color: #C19B76;
