@@ -1,10 +1,17 @@
-import React from 'react'
+import React, {useState} from 'react'
 import * as FaIcons from "react-icons/fa";
+import { Waypoint } from "react-waypoint";
 import reception from "../assets/images/reception.jpg"
 import "../../styles/reception.css"
 
-const Reception = () => {
 
+const Reception = () => {
+    
+    const [isWayPoint, setIsWaypoint] = useState(false)
+    // to handle waypoint
+    const handleWayPoint = ()=>{
+        setIsWaypoint(true)
+    }
     var start = 0,
         end = 24,
         duree = 1,
@@ -13,9 +20,11 @@ const Reception = () => {
 
     function count(){
         var node=document.getElementsByClassName('reception-number')[0];
-        node.innerHTML = ++start;
-        if( start < end ) { // Si on est pas arrivé à la valeur finale, on relance notre compteur une nouvelle fois
-            setTimeout(count, delta);
+        if (isWayPoint) {
+            node.innerHTML = ++start;
+            if( start < end ) { // Si on est pas arrivé à la valeur finale, on relance notre compteur une nouvelle fois
+                setTimeout(count, delta);
+            }
         }
     }
     
@@ -30,7 +39,14 @@ const Reception = () => {
             />
             <div className='text-reception'>
                 <div className='reception-number' onInput={setTimeout(count, delta)}>0</div>
-                <div className='reception-description'>years of Experience</div>
+                <div
+                 className='reception-description'
+                >
+                    years of Experience
+                    <Waypoint
+                        onEnter={()=>{handleWayPoint()}}
+                    />
+                </div>
             </div>
         </div>
         <div className='side-text'>            

@@ -1,12 +1,12 @@
 import React, {useState} from 'react'
-
+import { Waypoint } from "react-waypoint";
 import '../../styles/firstImage.css'
 import background from '../assets/images/principal.jpg'
 import Navbar from './navbar';
 
 
 function FirstImage() {
-
+  const [pageLoading, setPageLoading] = useState(false)
   const [home, setHome] = useState(false)
   const [room, setRoom] = useState(false)
   const [about, setAbout] = useState(false)
@@ -14,11 +14,11 @@ function FirstImage() {
   const [pages, setPages] = useState(false)
   const [news, setNews] = useState(false)
   const [contact, setContact] = useState(false)
-  //effect of keybord typing DOMContentLoaded
-  window.addEventListener("load", (event) => {
-    animate_text();
-  });
-  // -------------------  
+  //gestion du chargement de page
+  window.addEventListener("load",(event)=>{
+    setPageLoading(true)
+  })
+  //effect of keybord typing  
   function animate_text() 
   {
     let delay = 100,
@@ -26,22 +26,25 @@ function FirstImage() {
         contents,
         letters;
 
-    document.querySelectorAll(".animate-text").forEach(function (elem) {
-      contents = elem.textContent.trim();
-      elem.textContent = "";
-      letters = contents.split("");
-      elem.style.visibility = 'visible';
-
-      letters.forEach(function (letter, index_1) {
-        setTimeout(function () {
-          // ---------
-          // effet machine à écrire (SIMPLE)
-          elem.textContent += letter;
-          // ---------
-        }, delay_start + delay * index_1);
-      });    
-      delay_start += delay * letters.length;
-    });
+    if (pageLoading) {
+      document.querySelectorAll(".animate-text").forEach(function (elem) {
+        contents = elem.textContent.trim();
+        elem.textContent = "";
+        letters = contents.split("");
+        elem.style.visibility = 'visible';
+  
+        letters.forEach(function (letter, index_1) {
+          setTimeout(function () {
+            // ---------
+            // effet machine à écrire (SIMPLE)
+            elem.textContent += letter;
+            // ---------
+          }, delay_start + delay * index_1);
+        });    
+        delay_start += delay * letters.length;
+      });
+      setPageLoading(false)
+    }
   }
 
   return (
@@ -82,6 +85,9 @@ function FirstImage() {
             <div className='firstImText2'>
               <span className='animate-text'>Reserve</span>
               <span className='animate-text'> Your Holiday</span>
+              <Waypoint
+                onEnter={()=>{animate_text()}}
+              />
             </div>
           </div>
         </div>
