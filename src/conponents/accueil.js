@@ -11,7 +11,8 @@ import Around from "./outils/arround";
 import HotelNew from "./outils/hotelNew";
 import NewLetter from "./outils/newLetter";
 import Footer from "./outils/footer";
-import SideBarRight from "./outils/sideBarRight";
+// import SideBarRight from "./outils/sideBarRight";
+
 
 function PrincipalPage(){
     
@@ -32,7 +33,7 @@ function PrincipalPage(){
             <HotelNew/>
             <NewLetter/>
             <Footer/>
-            {/* <SideBarRight/> */}
+            
         </div>
     )
 }

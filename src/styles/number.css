@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url("https://fonts.gstatic.com/s/playfairdisplay/v29/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKdFvXDTbtPY_Q.woff2");
 @import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap" );
 .phone-tel{
     height: 60px;
@@ -12,7 +13,7 @@
     font-size: 30px;
     font-weight: 500;
     color: #FFF;
-    font-family: 'Comforter Brush', sans-serif ;
+    font-family: 'Playfair Display', sans-serif ;
 }
 .number{
     display: flex;
@@ -27,4 +28,21 @@
 .space{
     margin-left: 20px;
     letter-spacing: 2px;
+}
+/* //////////implement responsive design */
+@media screen and (min-width: 335px) and (max-width: 576px) {
+    .number-overlay{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .number{
+        /* implementation de sprite pour selectionner une partie d'image */
+        background-position: 500px 1300px ;
+        filter: brightness(95%);
+        height: 330px;
+        width: 480px;
+    }
+    .number-overlay{
+        letter-spacing: 2px;
+    }
 }

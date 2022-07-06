@@ -1,3 +1,6 @@
+@import url("https://fonts.gstatic.com/s/playfairdisplay/v29/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKdFvXDTbtPY_Q.woff2");
+
+
 .space-color{
     height: 3px;
     background-color: #C19B76;
@@ -18,14 +21,25 @@
     color: #C19B76;
     font-size: 20px;
     font-weight: 500;
+    font-family: "Roboto";
     margin-bottom: 20px;
+
 }
 .firstImText2{
     display: flex;
     flex-direction: column;
     color: #f9f9f9;
     font-size: 80px;
+    font-family: "Playfair Display";
 }
+/* //////////implement responsive design */
+@media screen and (min-width: 335px) and (max-width: 576px) {
+    .firstImOverlay{
+        left: 20px;
+        bottom: 10px;
+    }
+}
+
 
 
 

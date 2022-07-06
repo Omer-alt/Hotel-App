@@ -44,7 +44,7 @@ const SingleRoom = () => {
             </div>
         </div>
 
-        <div className='roomConfort'>
+        <div data-aos={"fade-right"} className='roomConfort'>
             <img src={singleRoom1} alt='the bed dressing' className='confortImg'/>
         </div>
 

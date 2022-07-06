@@ -24,7 +24,7 @@ const AllRooms = () => {
         </section>
 
         <section className='room-photos'>
-            <div>
+            <div className="specific-room">
                 <img src={room1} alt="room" className='room' ></img>
                 <div className='room-description'>
                     <div className='room-graybox'>FROM 34 $</div>
@@ -39,10 +39,10 @@ const AllRooms = () => {
                     </div>
                 </div>
             </div>
-            <div>
+            <div className="specific-room">
                 <img src={room2} alt="room" className='room' ></img>
                 <div className='room-description'>
-                    <div className='room-graybox'>FROM 86 $</div>
+                    <div className='room-graybox'>FROM 85 $</div>
                     <div className='room-type'>
                         <span className='room-name'>DELUXE ROOM</span>
                         <div className='room-type-guest'>
@@ -54,17 +54,17 @@ const AllRooms = () => {
                     </div>
                 </div>
             </div>
-            <div>
-            <img src={room3} alt="room" className='room' ></img>
+            <div className="specific-room">
+                <img src={room3} alt="room" className='room' ></img>
                 <div className='room-description'>
-                    <div className='room-graybox'>FROM 86 $</div>
+                    <div className='room-graybox'>FROM 87 $</div>
                     <div className='room-type'>
-                        <span className='room-name'>DELUXE ROOM</span>
+                        <span className='room-name'>FAMILY ROOM</span>
                         <div className='room-type-guest'>
                             <img src={guest} alt="guest" className='room-guest'></img>
                             <span className='space'>5 GUESTS</span>
                             <img src={size} alt="icons-size" className='room-size'></img>
-                            <span className='space'>56 FT</span>
+                            <span className='space'>67 FT</span>
                         </div>
                     </div>
                 </div>

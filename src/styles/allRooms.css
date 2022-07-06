@@ -1,11 +1,13 @@
-/* @import url('https://fr.allfont.net/allfont.css?fonts=playfair-display');  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url("https://fonts.gstatic.com/s/playfairdisplay/v29/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKdFvXDTbtPY_Q.woff2");
+@import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap" );
 
 /* section de groupements de texte */
 .room-text{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 97px;
+    min-height: 97px;
     /* width: 100%; */
     margin: 40px;
 }
@@ -85,6 +87,7 @@
     font-family: 'Playfair Display', sans-serif;
     font-size: 18px;
     font-weight: 300;
+    font-family: 'Playfair Display';
     white-space: nowrap;
     position: absolute;
     bottom: 60px;
@@ -99,8 +102,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: 300;
+    /* font-weight: 00; */
     font-size: 12px;
+    font-family: 'Roboto';
     position: absolute;
     bottom: 30px;
     left: 10px;
@@ -115,6 +119,66 @@
     height: 20px;
     margin-left: 20px;
 }
+/* //////////implement responsive design */
+@media screen and (min-width: 335px) and (max-width: 576px) {
+    .room-text{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .all-room{
+        margin: 20px 0 20px;
+    }
+    .room-text-p{
+        text-align: center;
+        width: auto;
+    }
+    .room-blackbox{
+        margin-top: 20px;
+    }
+    /* ////////section of images  */
+    .room-photos{
+        flex-direction: column;
+        /* justify-content: space-around; */
+        
+    }
+    .specific-room{
+        max-width: 466px;
+        max-height: 302px;
+    }
+    .room{  
+        min-width: 255px;
+        min-width: 145px;      
+        width: 70vh;
+        height: 44vh; 
+    }
+    .room-graybox{
+        top: -290px;
+        right: -466px;
+    }
+}
+@media screen and (width <= 475px) {
+    .room{  
+        
+        width: 225px;
+        height: 145px;      
+    }
+    .room-graybox{
+        top: -140px;
+        right: -225px;
+    }
+    .room-type-guest{
+        visibility: hidden;
+        /* display: none; */
+    }
+    .room-name{
+        bottom: 12px;
+    }
+    .room-type{
+        /* /////je veux un degrade de couleur noir en bas de chaque picture(pas correct) */
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    }
 
+}
 
 

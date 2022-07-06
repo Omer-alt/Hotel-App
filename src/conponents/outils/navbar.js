@@ -1,5 +1,6 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {FaBars} from "react-icons/fa"
+import Aside from "./Aside";
 // import { Navbar, Col, Row, Nav, Container } from 'react-bootstrap';
 import Home from './droplists/Home';
 import About from './droplists/Abouts';
@@ -27,8 +28,9 @@ const Navbar = (
     setPages, 
     setNews, 
     setRoom
-   }) => {
+  }) => {
 
+  const [displaySide, setDisplaySide] = useState(false)
   return (
     <div className='navbar'>
       <img src={logo} alt='Motela' className='nav-logo'/>
@@ -130,8 +132,10 @@ const Navbar = (
       <div className='book-class'>
         <span >BOOK NOW</span>
       </div>
+      {displaySide && <Aside setDisplaySide={setDisplaySide}/> }
       <div className='nav-mobile'>
-        <FaBars style={{height:"25px", width:"25px"}}/>
+        <FaBars onClick={()=>setDisplaySide(true)} style={{height:"25px", width:"25px"}}/>
+        
       </div>
     </div>
   )

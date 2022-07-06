@@ -42,7 +42,7 @@ const Reception = () => {
                 <div
                  className='reception-description'
                 >
-                    years of Experience
+                    <span>years of </span><span>Experience</span>
                     <Waypoint
                         onEnter={()=>{handleWayPoint()}}
                     />
@@ -51,7 +51,7 @@ const Reception = () => {
         </div>
         <div className='side-text'>            
             <span className='small-text'>INN & SUITES</span>                      
-            <h1 className='title'>Welcome To Spa & Relaxe hotel</h1>            
+            <h1 className='title'>Welcome to Spa & Relaxe Hotel</h1>            
             <div className='side-paragraphe'>
                
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem, consequatur architecto provident fugiat maxime temporibus illo ut laudantium ab reiciendis labore numquam nemo veritatis exercitationem aliquam quos similique minus! Quaerat.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem, consequatur architecto provident fugiat maxime temporibus illo ut laudantium ab reiciendis labore numquam nemo veritatis exercitationem aliquam quos similique minus! Quaerat.
