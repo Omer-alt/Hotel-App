@@ -61,4 +61,31 @@
     right: 0px;
 
 }
-
+/* //////////implement responsive design */
+@media screen and (min-width: 335px) and (max-width: 576px) {
+    .assistance{
+        height: auto;
+        margin-top: 40px;
+        flex-direction: column;
+    }
+    .assistance-child{
+        margin: 30px 20px 30px;
+    }
+    .left{
+        margin: 30px 20px 0px;
+    }
+    .rigth{
+        position: relative;
+        height: auto;
+        margin-bottom: 130px;
+    }
+    .assistance-title{
+        top: -30px;
+        right: 0px;
+    }
+    .rigth-over{
+        width: 100%;
+        bottom: -100px;
+        border: 8px 0px 0px solid #FFF;
+    }
+}

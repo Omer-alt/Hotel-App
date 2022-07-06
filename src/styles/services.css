@@ -188,3 +188,71 @@
     margin-left: 20px;
 }
 /* //landry rectangle */
+/* //////////implement responsive design */
+@media screen and (min-width: 335px) and (max-width: 576px) {
+    .parallax{
+        background-position: 700px 0px;
+        background-repeat: no-repeat;
+        mix-blend-mode: hard-light;
+    }
+    .space-div{
+        display: none;
+    }
+    .principal-overlay p{
+        max-width: 80vh;
+        margin-left: 10px;
+    }
+    .principal-overlay h5{
+        font-size: 12px;
+        letter-spacing: 4px;
+        
+    }
+    .principal-overlay h1{
+        font-size: 30px;
+        line-height: 1em;
+    }
+    .butons{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .gray-buton{
+        margin: 20px;
+    }
+    .gray-buton:hover{
+        transition: transform 0.3s;
+    }
+    .black-buton:hover{
+        transition: transform 0.3s;
+    }
+    .others{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        height: auto;
+        min-height: 1215px;
+    }
+    /* room cleaning */
+    .over-clean{
+        position: absolute;
+        top: 520px;
+        left: 18vw; 
+        right: 18vw;
+    }
+    /* landry */
+    .over-landry{
+        position: absolute;
+        top: 1120px;
+        left: 18vw; 
+        right: 18vw; 
+        
+    }
+    .over-meals{
+        top: 1720px;
+        right: 18vw;
+        left: 18vw;  
+    }
+    .room-service{
+        max-width: 64vw;
+    }
+}
+
