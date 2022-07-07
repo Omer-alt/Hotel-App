@@ -18,6 +18,17 @@
     height: 47px;
     width: 300px;
 }
+.yourMail{
+    display: flex;
+    flex-direction: column;
+}
+#emailInput{
+    height: 43px;
+}
+#resultat{
+    font-size: 10px;
+    display: inline-block;
+}
 .newLetterButton{
     color: #FFF;
     background-color: #C19B76;

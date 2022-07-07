@@ -44,11 +44,14 @@
     width: 150px;
     cursor: pointer;
 }
+.fButton:hover{
+    background-color: #1C1C1C;
+}
 .fInput{
     height: 40px;
     width: 200px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    
 }
 .fcText{
     max-width: 240px;
@@ -57,6 +60,12 @@
 .fcInput{
     display: flex;
     flex-direction: column;
+}
+#result{
+    font-size: 10px;
+    width: 200px;
+    margin-bottom: 20px;
+    font-weight: 700;
 }
 .mesure{
     height: 18px;
