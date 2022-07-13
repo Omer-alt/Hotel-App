@@ -10,10 +10,10 @@ import avatar from '../assets/images/avatar2.png'
 const SingleRoom = () => {
   return (
     <section className='singleRoomSection'>
-        <img src={singleRoom} alt='single room look'className='singleRoom' />
+        <img src={singleRoom} alt='single room look' className='singleRoom' />
 
         <div className='overlay-Room'>
-            <div className='overlaySection'></div>
+            <div className='overlaySection' id='overlaySectionVide'></div>
 
             <div className='overlaySection'>
                 <span className='singleRoom-imgCall' style={{color:"#C19B76"}}>INN HOTEL</span>

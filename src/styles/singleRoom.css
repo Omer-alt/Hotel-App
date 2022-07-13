@@ -93,3 +93,49 @@
     display: flex;
     flex-direction: column;
 }
+
+/* //////////implement responsive design */
+@media screen and (min-width: 335px) and (max-width: 576px) {
+    .singleRoom{
+        filter: brightness(60%);
+        height: 700px;
+    }
+    .singleRoom-Services{
+        flex-direction: column;
+    }
+    .confortImg{
+        margin-top: 0px;
+        transition: .3s ease-in-out;
+        max-height: 600px;
+        width: 70vw;
+        position: absolute;
+        top: 560px;
+    }
+    .confortImg:hover{
+        margin-top: -30px;
+    }
+    .overlay-Room{
+        justify-content: center;
+    }
+    .overlaySection{
+        right: auto;
+    }
+    #overlaySectionVide{
+        display: none;
+    }
+    #verticalBorder{
+        padding: 5px 20vw;
+    }
+    .customerAdvice{
+        text-align: center;
+    }
+    .singleRoomSection{
+        height: 1250px;
+    }
+    .customer{
+        top: 1300px;
+    }
+    .customerAdvice{
+        text-align: center;
+    }  
+}
