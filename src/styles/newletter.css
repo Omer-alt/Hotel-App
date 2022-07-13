@@ -42,3 +42,18 @@
 .newLetterButton:hover{
     background-color: #1c1c1c;
 }
+/* //////////implement responsive design */
+@media screen and (min-width: 335px) and (max-width: 576px) {
+    .newLetter{
+        flex-direction: column;
+    }
+    .newLetter:first-child{
+        text-align: center;
+    }
+    .newLetterRight{
+        margin-bottom: 20px;
+    }
+    .newLetterButton {
+        width: 20vw;
+    }
+}

@@ -13,7 +13,7 @@ const  Around = () => {
         <section className='around'>
             <div className='aroundContainer down'>
                 <div className='aroundCoutainerImg'>
-                    <img src={piscine} className="aroundImg" alt="piscine" />
+                    <img src={piscine} className="aroundImg aroundImgMobile" alt="piscine" />
                 </div>
                 <div className='aroundDescription'>
                     <h3 className='aroundTitle'>Beauty & Spa</h3>
@@ -24,7 +24,7 @@ const  Around = () => {
             </div>
             <div className='aroundContainer'>
                 <div className='aroundCoutainerImg'>
-                    <img src={tour} id="aroundImgCenter" alt="tourisme" />
+                    <img src={tour} className="aroundImgMobile" id="aroundImgCenter" alt="tourisme" />
                 </div>
                 <div>
                     <h3 className='aroundTitle'>City tours</h3>
@@ -35,7 +35,7 @@ const  Around = () => {
             </div>
             <div className='aroundContainer down'>
                 <div className='aroundCoutainerImg'>
-                    <img src={dinner} className="aroundImg" alt="tourisme" />
+                    <img src={dinner} className="aroundImg aroundImgMobile" alt="tourisme" />
                 </div>
                 <div>
                     <h3 className='aroundTitle'>Lunch & Dinner</h3>

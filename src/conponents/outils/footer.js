@@ -137,7 +137,8 @@ const Footer = () => {
         <div className='footerbottom'>
             <div>
                 <span>
-                    <FaIcons.FaCopyright className='mesure'/>
+                    {/* <FaIcons.FaCopyright className='mesure'/> */}
+                    &copy;
                 </span>
                 <span>Hotel Inn & Suites Theme - Nicdark Copyright</span>
             </div>

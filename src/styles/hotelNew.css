@@ -148,5 +148,26 @@
     bottom: 20px;
     left: 10px;
 }
+/* //////////implement responsive design */
+@media screen and (min-width: 335px) and (max-width: 576px) {
+    .new{
+        height: 3000px;
+    }
+    .newFeedBack{
+        flex-direction: column;
+    }
+    .postImg{
+        min-width: 90vw;
+    }
+    .newMail{
+        min-width: 90vw;
+    }
+    .newHall{
+        min-width: 90vw;
+    }
+    .citation{
+        min-width: 90vw;
+    }
+}
 
 

@@ -1,3 +1,4 @@
+@import url("https://fonts.gstatic.com/s/playfairdisplay/v29/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKdFvXDTbtPY_Q.woff2");
 #surround{
     height: 12px;
     color: #C19B76;
@@ -28,6 +29,7 @@
     color: #1C1C1C;
     letter-spacing: 1px;
     line-height: 1.3em;
+    font-family: "Playfair Display", sans-serif;
 }
 .aroundDescription{
     display: grid;
@@ -50,12 +52,19 @@
     width: 300px;
 }
 #aroundImgCenter{
-    max-height: 540px;
-    max-width: 425px;
+    height: 540px;
+    width: 425px;
 }
 .down{
     position: relative;
     bottom: -80px;
+}
+.aroundImgMobile{
+    margin-top: 20px;
+    transition: .3s ease-in-out;
+}
+.aroundImgMobile:hover{
+    margin-top: 0px;
 }
 .aroundParagraph{
     line-height: 28px;
@@ -105,4 +114,30 @@
 }
 .aroundBSpan:hover{
     transform: scale(0.8);
+}
+/* //////////implement responsive design */
+@media screen and (min-width: 335px) and (max-width: 576px) {
+    #surroundTitle{
+        font-size: 18px;
+    }
+
+    .around{
+      flex-direction: column;
+    }
+    .down{
+        bottom: 0px;
+    }
+    .aroundImgMobile{
+        height: 405px;
+        min-width: 70vw;
+    }
+    .aroundBottom{
+        margin-top: 30px;
+       
+    }
+    .aroundBtext{
+        font-size: 20px;
+        width: 80%;
+        left: auto;
+    }
 }
