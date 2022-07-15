@@ -15,6 +15,8 @@
     width: 540px;
     margin-left: 70px; 
     margin-right: 70px; 
+    position:relative;
+    z-index: -10;
 }
 /* //pour faire le overlay */
 .overlay-image{

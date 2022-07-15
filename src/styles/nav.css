@@ -63,7 +63,7 @@
     width: 200%;
     /* position: absolute; */
 }
-@media all and (max-width: 576px){
+@media all and (max-width: 1024px){
     .nav-element{
         display: none;
     }

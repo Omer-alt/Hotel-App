@@ -75,26 +75,27 @@ const Calendrier = () => {
     },[])
   return (
     <div className='calendrier'>
+        {/* bloc de calendrier */}
         <div data-aos={"fade-up"} ref={checkInRef} className='group'>
             <span>CHECK-IN</span>
-            {arriveTime && 
-                <CalendarSquare 
-                    className='calendrierSquare' 
-                    changeDate={changeDate} 
-                    value={arriveDate}
-                />
-            }
             <div onClick={()=>showCalendar(true, setTimeArrive)} 
                 className="group-cadre"
             >
                 <span>{moment(arriveDate).format('DD MMM')}</span>
                 <span><FaAngleDown /></span>
             </div>
+            {arriveTime && 
+                <CalendarSquare 
+                    className='calendrierSquare' 
+                    changeDate={changeDate} 
+                    value={arriveDate}
+                />
+            } 
             
         </div>
-        <div data-aos={"fade-up"} ref={checkOutRef} className='group'>
+        <div data-aos={"fade-up"} ref={checkOutRef}  className='group'>
             <span>CHECK-OUT</span>
-            <div  onClick={()=>showCalendar(true, setTimeLeave)} className="group-cadre">
+            <div  onClick={()=>showCalendar(true, setTimeLeave)}  className="group-cadre">
                 
                 <span>{moment(leaveDate).format('DD MMM')}</span>
                 <span><FaAngleDown /></span>
@@ -112,7 +113,7 @@ const Calendrier = () => {
                 <span>{guests}</span>
                 <span><FaAngleDown onClick={decrement}/><FaAngleUp onClick={increment}/></span>
             </div>
-        </div>
+        </div> 
         <div data-aos={"fade-up"} className='group'>
             <span className='hidden'>available</span>
             <div className="group-cadre">
@@ -121,6 +122,7 @@ const Calendrier = () => {
                 </a>
             </div>
         </div>
+        
     </div>
   )
 }

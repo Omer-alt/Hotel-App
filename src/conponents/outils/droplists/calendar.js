@@ -4,12 +4,13 @@ import Calendar from 'react-calendar'
 
 const CalendarSquare = ({value, changeDate}) => {
   return (
-    <>
+    <div >
         <Calendar 
+          style={{position: "absolute"}}
             value={value} 
             onChange={changeDate}
         />
-    </>
+    </div>
   )
 }
 

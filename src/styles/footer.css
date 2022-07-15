@@ -118,8 +118,7 @@
 }
 /* //////////implement responsive design */
 @media screen and (min-width: 335px) and (max-width: 576px) {
-    .footer{
-        
+    .footer{ 
         height: auto;
     }
     .footertop{
@@ -134,7 +133,19 @@
     .footerRight{
         display: none;
     }
-
+    .galleryImg{
+        height: 86px;
+        width: 86px;
+    }
+    .fcText{
+        max-width: 80vh;
+    }
+    .fButton{
+        width: 30vh;
+    }
+    .fInput{
+        width: 80vw;
+    }
 }
 
 
