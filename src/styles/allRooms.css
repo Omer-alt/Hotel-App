@@ -120,7 +120,7 @@
     margin-left: 20px;
 }
 /* //////////implement responsive design */
-@media screen and (min-width: 335px) and (max-width: 576px) {
+@media screen and (min-width: 200px) and (max-width: 576px) {
     .room-text{
         flex-direction: column;
         justify-content: center;

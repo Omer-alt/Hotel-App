@@ -95,7 +95,7 @@
 }
 
 /* //////////implement responsive design */
-@media screen and (min-width: 335px) and (max-width: 576px) {
+@media screen and (min-width: 200px) and (max-width: 576px) {
     .singleRoom{
         filter: brightness(60%);
         height: 700px;

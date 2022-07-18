@@ -62,7 +62,7 @@
 
 }
 /* //////////implement responsive design */
-@media screen and (min-width: 335px) and (max-width: 576px) {
+@media screen and (min-width: 200px) and (max-width: 576px) {
     .assistance{
         height: auto;
         margin-top: 40px;

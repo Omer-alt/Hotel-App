@@ -33,7 +33,7 @@
     font-family: "Playfair Display";
 }
 /* //////////implement responsive design */
-@media screen and (min-width: 335px) and (max-width: 576px) {
+@media screen and (min-width: 200px) and (max-width: 576px) {
     .firstImOverlay{
         left: 20px;
         bottom: 10px;

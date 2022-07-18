@@ -116,7 +116,7 @@
     transform: scale(0.8);
 }
 /* //////////implement responsive design */
-@media screen and (min-width: 335px) and (max-width: 576px) {
+@media screen and (min-width: 200px) and (max-width: 576px) {
     #surroundTitle{
         font-size: 18px;
     }

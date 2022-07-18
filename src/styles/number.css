@@ -30,7 +30,7 @@
     letter-spacing: 2px;
 }
 /* //////////implement responsive design */
-@media screen and (min-width: 335px) and (max-width: 576px) {
+@media screen and (min-width: 200px) and (max-width: 576px) {
     .number-overlay{
         flex-direction: column;
         justify-content: center;
