@@ -33,7 +33,7 @@ export const SidebarData = [
     {
         title: "Rooms",
         path: "/rooms",
-        icon: <AiIcons.AiFillHome />,
+        icon: <FaIcons.FaKey />,
         iconClosed: <RiIcons.RiArrowDownSFill />,
         iconOpened: <RiIcons.RiArrowUpSFill />,
     
@@ -58,7 +58,7 @@ export const SidebarData = [
 {
 	title: "About",
 	path: "/about-us",
-	icon: <AiIcons.AiFillHome />,
+	icon: <AiIcons.AiFillSetting />,
 	iconClosed: <RiIcons.RiArrowDownSFill />,
 	iconOpened: <RiIcons.RiArrowUpSFill />,
 
@@ -110,12 +110,12 @@ export const SidebarData = [
 {
 	title: "Shop",
 	path: "/shop",
-	icon: <FaIcons.FaPhone />,
+	icon: <AiIcons.AiOutlineShoppingCart />,
 },
 {
 	title: "Events",
 	path: "/events",
-	icon: <FaIcons.FaEnvelopeOpenText />,
+	icon: <RiIcons.RiCalendarEventLine />,
 
 	iconClosed: <RiIcons.RiArrowDownSFill />,
 	iconOpened: <RiIcons.RiArrowUpSFill />,
@@ -136,7 +136,7 @@ export const SidebarData = [
 {
 	title: "News",
 	path: "/news",
-	icon: <FaIcons.FaPhone />,
+	icon: <RiIcons.RiNewspaperLine />,
 },
 {
 	title: "Contact",

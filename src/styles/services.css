@@ -255,3 +255,15 @@
     }
 }
 
+@media screen and (min-width: 1024px) {
+    .over-clean{
+        left: 4vw; 
+    }
+    /* landry */
+    .over-landry{
+        left: 36vw;
+    }
+    .over-meals{
+        right: 4vw;  
+    }
+}
