@@ -4,6 +4,8 @@
 .space-color{
     height: 3px;
     background-color: #C19B76;
+    position: sticky;
+    top: 0;
 }
 .animate-text{
     /* effect machine a ecrire sur le texte*/
@@ -20,10 +22,9 @@
 .firstImText1{
     color: #C19B76;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 700;
     font-family: "Roboto";
     margin-bottom: 20px;
-
 }
 .firstImText2{
     display: flex;

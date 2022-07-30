@@ -40,6 +40,7 @@
     width: 150px;
     text-align: center;
     padding-top: 10px;
+    transition: 0.35s ease-out;
 }
 
 .room-blackbox:hover{

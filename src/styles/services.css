@@ -66,6 +66,7 @@
     letter-spacing: 4px;
     padding-top: 10px;
     cursor: pointer;
+    transition: 00.35s ease-out;
 }
 .black-buton{
     height: 30px;
@@ -75,6 +76,7 @@
     letter-spacing: 4px;
     padding-top: 10px;
     cursor: pointer;
+    transition: 00.35s ease-out;
 }
 .black-buton:hover{
     transform: scale(0.9);
@@ -82,7 +84,7 @@
 .gray-buton:hover{
     transform: scale(0.9);
 }
-/* part of rectagles with a picture */
+/* part of rectangles with a picture */
 .others{
     display: flex;
     align-items: center;
@@ -107,6 +109,7 @@
 }
 #over-block-more{
     text-align: center;
+    transition: 0.5s ease-out;
     height: 32px;
     color: #1C1C1C;
     margin: 20px 12px 20px 40px;
@@ -119,7 +122,7 @@
 }
 #over-block-lien{
     text-decoration: none;
-
+    transition: 0.5s ease-out;
     color: #1C1C1C;
     padding-top: 10px;
     font-size: 14px;
@@ -160,6 +163,7 @@
 }
 .over-block-more{
     text-align: center;
+    transition: 0.5s ease-out;
     height: 32px;
     color: #FFF;
     margin: 20px 12px 20px 40px;
@@ -168,7 +172,7 @@
 }
 .over-block-lien{
     text-decoration: none;
-
+    transition: 0.5s ease-out;
     color: #FFF;
     padding-top: 10px;
     font-size: 14px;

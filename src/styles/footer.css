@@ -43,6 +43,7 @@
     height: 40px;
     width: 150px;
     cursor: pointer;
+    transition: 0.5s ease-out;
 }
 .fButton:hover{
     background-color: #1C1C1C;
@@ -133,9 +134,12 @@
     .footerRight{
         display: none;
     }
+    .gallery{
+        max-width: 95vh;
+    }
     .galleryImg{
-        height: 86px;
-        width: 86px;
+        max-height: 86px;
+        max-width: 86px;
     }
     .fcText{
         max-width: 80vh;

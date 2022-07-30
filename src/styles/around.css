@@ -84,6 +84,7 @@
     width: 60%;
     left: 20%;
     margin-top: 100px;
+    padding: 0px 30px 0px 30px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -96,7 +97,7 @@
     font-size: 30px;
     line-height: 1.5em;
     letter-spacing: 1px;
-    
+    text-align: center;
     font-weight: 300;
 }
 .aroundBSpan{
@@ -111,6 +112,7 @@
     cursor: pointer;
     text-transform: uppercase;
     margin-bottom: 30px;
+    transition: 0.5s ease-out;
 }
 .aroundBSpan:hover{
     transform: scale(0.8);

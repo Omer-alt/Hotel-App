@@ -28,8 +28,9 @@ const SidebarNav = styled.nav`
   justify-content: center;
   position: fixed;
   top: 0;
+  border-top: 3px solid #C19B76;
   right: ${({ sidebar }) => (sidebar ? "0" : "-100%")};
-  transition: 350ms;
+  transition: 2s;
   overflow-y: scroll;
   z-index: 10;
 `;

@@ -25,7 +25,7 @@ const Services = () => {
                     Quisque vitae posuere libero. Phasellus feugiat erat sit amet dui condimentum imperdiet. Ut at libero nec ligula fringilla dictum sit amet id dui. Integer gravida dolor elit, sit amet vestibulum mi elementum eget. 
                     </p>
                     <div className='butons'>
-                        <span className='gray-buton'>RESQUEST NOW</span>
+                        <span className='gray-buton'>REQUEST NOW</span>
                         <span className='black-buton'>CONTACT US</span>
                     </div>
                 </div>
@@ -91,7 +91,7 @@ const Services = () => {
                         </div>
                         <div id='over-block-more'>
                             <a id='over-block-lien' href='#'>
-                                RESQUEST
+                                REQUEST
                             </a>
                         </div>
                     </div>

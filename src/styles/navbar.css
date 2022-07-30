@@ -6,6 +6,7 @@
     font-weight: normal;
     padding-top: 20px;
     padding-bottom: 20px;
+    background-color: rgba(221, 221, 221, 0.09);
 }
 .nav-logo{
     height:69px;
@@ -22,12 +23,12 @@
     font-size: 18px;
 }
 .menu-elem{
+    padding: 16px 16px 16px 0px;
     margin-left: 30px;
     cursor: pointer;
 }
 .menu-elem:hover{
     background-color: #C19B76;
-    padding: 16px 16px 16px 0px;
     border: none;
 }
 .book-class{
@@ -49,6 +50,9 @@
 }
 /* and (min-width: 576px) */
 @media all and (max-width: 1024px){
+    .navbar{
+        background-color: #040404d3;
+    }
     .book-class{
         display: none;
     }
